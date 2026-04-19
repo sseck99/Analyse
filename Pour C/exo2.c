@@ -1,19 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main(void) {
+    int annee;
 
+    printf("Veuillez entrer l'année : ");
+    scanf("%d", &annee);
 
-
-    int annee ;
-    printf("veillez entre l'annee:");
-    scanf("%d",&annee);
-    if ( annee % 4==0 && annee % 100 !=0 || annee % 400==0)
-    {
-        printf("l'annee %d est bissextille\n",annee);
+    if ( (annee % 4 == 0 && annee % 100 != 0) || (annee % 400 == 0) ) {
+        printf("L'année %d est bissextile.\n", annee);
+    } else {
+        printf("L'année %d n'est pas bissextile.\n", annee);
     }
-    else 
-    {
-        printf("l'annee %d n'est pas bissextille\n",annee);
-    }
+
     return 0;
 }
