@@ -11,10 +11,10 @@ int main(void){
     
     for (int i = 1; i<=nombre; i +=1)
     {
-        printf("%d ",x);
+        printf("%d .\n",x);
         y= x + X1;
         x = X1;
         X1 = y;
     }
     return 0; 
-}
+}  
