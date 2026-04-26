@@ -11,7 +11,7 @@ int main(void)
     scanf("%f",&a);
     printf("Veuillez saisir la valeur de b\n");
     scanf("%f",&b);
-    printF("Veuillez saisir la valeur de c\n");
+    printf("Veuillez saisir la valeur de c\n");
     scanf("%f",&c);
 
     delta = b*b-4*a*c;
