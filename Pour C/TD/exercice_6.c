@@ -20,13 +20,13 @@ int main(void)
     {
         X1 = (-b+sqrt(delta))/(2*a);
         X2 = (-b-sqrt(delta))/(2*a);
-        printf("Equation admet deux solution X1=%f et X2=%f\n",X1,X2);
+        printf("Equation admet deux solution X1=%.2f et X2=%.2f\n",X1,X2);
 
     }
     else if (delta == 0)
     {
        X0 = -b/(2*a) ;
-        printf("Equation admet une unique solution X0=%f\n",X0); 
+        printf("Equation admet une unique solution X0=%.2f\n",X0); 
         
     }
     else
