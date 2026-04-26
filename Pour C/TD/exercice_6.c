@@ -9,9 +9,9 @@ int main(void)
 
     printf("Veuillez saisir la valeur de a: ");
     scanf("%f",&a);
-    printf("Veuillez saisir la valeur de b");
+    printf("Veuillez saisir la valeur de b: ");
     scanf("%f",&b);
-    printf("Veuillez saisir la valeur de c");
+    printf("Veuillez saisir la valeur de c: ");
     scanf("%f",&c);
 
     delta = b*b -4*a*c;
