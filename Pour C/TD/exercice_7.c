@@ -1,18 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    char chaine[100];
-    int i ;
+    char c ;
 
-    printf("Veuillez entrer une chaine de caractères : ");
-    get(chaine);
+    printf("Entre un caractère :");
+    c = getchar();
 
-    printf("le caractère ainsi que son code numérique :");
+    printf("le caractère  saisir est %c\n", c);
+    printf("le caractère  saisir est %d\n", c);
 
-    for (i = 0 ; i < sizeof(chaine); i++)
-    {
-        printf("%c = %d\n",chaine[i],chaine[i]);
-    }
-    
     return 0;
 }
